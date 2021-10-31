@@ -1,35 +1,51 @@
 import React from "react"
 
+import MenuItem from "../menu-item/MenuItem"
+
+import "./DirectoryStyles.scss"
+
 const DirectoryComponent = () => {
-    const sections = [
+    const categories = [
         {
-            title: "hats",
-            imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
-            id: 1
-        },
-        {
-            title: "jackets",
-            imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
-            id: 2
-        },
-        {
-            title: "sneakers",
-            imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
-            id: 3
-        },
-        {
-            title: "womens",
-            imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
-            size: "large",
+            title: "Womens",
+            imageUrl: "https://i.ibb.co/Q9cb6cR/women.jpg",
             id: 4
         },
         {
-            title: "mens",
-            imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-            size: "large",
+            title: "Mens",
+            imageUrl: "https://i.ibb.co/dgwjrsb/men.jpg",
             id: 5
+        },
+        {
+            title: "Hats",
+            imageUrl: "https://i.ibb.co/jgJCw9F/hats.jpg",
+            imageAlt: "hats",
+            id: 1
+        },
+        {
+            title: "Jackets",
+            imageUrl: "https://i.ibb.co/5nD7xjV/jackets.jpg",
+            id: 2
+        },
+        {
+            title: "Sneakers",
+            imageUrl: "https://i.ibb.co/mBkVPVd/sneakers.jpg",
+            id: 3
         }
     ]
 
-    return <div>DirectoryComponent</div>
+    return (
+        <div className="directory-comp">
+            {categories.map(({ title, imageUrl, id, imageAlt }) => (
+                <MenuItem
+                    key={id}
+                    title={title}
+                    imageUrl={imageUrl}
+                    imageAlt={imageAlt}
+                />
+            ))}
+        </div>
+    )
 }
+
+export default DirectoryComponent
