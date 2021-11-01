@@ -1,13 +1,15 @@
 .single-item {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
-    width: fit-content;
+    // border: 1px solid red;
 
     .single-item-image {
         background-size: cover;
         background-position: center;
-        margin-bottom: 5px;
+        height: 400px;
+        width: 300px;
+        margin-bottom: 15px;
+        border-radius: 3px;
     }
 
     .single-item-footer {
@@ -15,6 +17,10 @@
         flex-direction: row;
         justify-content: space-between;
         font-weight: bolder;
-        border: 1px solid blue;
+        // border: 1px solid blue;
+
+        .name {
+            font-weight: bolder;
+        }
     }
 }

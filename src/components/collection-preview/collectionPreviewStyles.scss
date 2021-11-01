@@ -1,0 +1,11 @@
+.collection-preview-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .collection-preview-row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+}

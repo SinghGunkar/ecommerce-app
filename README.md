@@ -1,5 +1,10 @@
 ## Work in progress
 
-Here is a screenshot of the homepage
+Here are screenshots of the project:
 
-![GitHub Logo](filesForReadmd/HomePage.png)
+![img1](filesForReadmd/HomePage.png)
+![img2](filesForReadmd/ShopPage.png)
+
+## Problems
+
+-   Have to specify height and width for a image to render
