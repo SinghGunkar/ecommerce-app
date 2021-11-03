@@ -9,7 +9,6 @@ const ShopPage = () => {
 
     return (
         <div className="shop-page">
-            <h1>SHOP PAGE</h1>
             {shopCollections.map(
                 ({ id, ...otherShopCategoryProps }) => {
                     return (

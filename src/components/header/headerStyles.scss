@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+    .navigation-links-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 30%;
+        justify-content: space-between;
+        margin-right: 15px;
+
+        div:last-child {
+            margin-right: 0px;
+        }
+
+        .link {
+            margin-right: 15px;
+        }
+    }
+}

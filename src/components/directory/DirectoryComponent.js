@@ -2,7 +2,7 @@ import React from "react"
 
 import MenuItem from "../menu-item/MenuItem"
 
-import "./DirectoryStyles.scss"
+import "./directoryStyles.scss"
 
 const DirectoryComponent = () => {
     const categories = [
