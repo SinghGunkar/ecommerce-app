@@ -13,18 +13,18 @@ const DirectoryComponent = () => {
         },
         {
             title: "Mens",
-            imageUrl: "https://i.ibb.co/dgwjrsb/men.jpg",
+            imageUrl: "https://i.ibb.co/m4DrKnS/men.jpg",
             id: 5
         },
         {
             title: "Hats",
-            imageUrl: "https://i.ibb.co/jgJCw9F/hats.jpg",
+            imageUrl: "https://i.ibb.co/7ydB1vh/hats.jpg",
             imageAlt: "hats",
             id: 1
         },
         {
             title: "Jackets",
-            imageUrl: "https://i.ibb.co/5nD7xjV/jackets.jpg",
+            imageUrl: "https://i.ibb.co/P1tgxrM/jackets.jpg",
             id: 2
         },
         {

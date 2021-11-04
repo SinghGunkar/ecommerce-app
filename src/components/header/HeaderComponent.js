@@ -13,7 +13,7 @@ const Header = () => {
             <div className="navigation-links-wrapper">
                 <div>
                     <Link className="link" to="/shop">
-                        SHOP
+                        <text>SHOP</text>
                     </Link>
                 </div>
 
