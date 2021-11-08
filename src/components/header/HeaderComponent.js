@@ -13,7 +13,7 @@ const Header = () => {
             <div className="navigation-links-wrapper">
                 <div>
                     <Link className="link" to="/shop">
-                        <text>SHOP</text>
+                        SHOP
                     </Link>
                 </div>
 
@@ -26,6 +26,12 @@ const Header = () => {
                 <div>
                     <Link className="link" to="/account">
                         ACCOUNT
+                    </Link>
+                </div>
+
+                <div>
+                    <Link className="link" to="/signinsignup">
+                        SIGNIN/SIGNOUT
                     </Link>
                 </div>
             </div>
