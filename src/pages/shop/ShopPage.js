@@ -2,7 +2,7 @@ import React from "react"
 
 import SHOP_DATA from "./SHOP_DATA"
 
-import CollectionPreview from "../../components/collection-preview/CollectionPreviewComponent"
+import CollectionPreview from "../../components/collection-preview/CollectionPreview"
 
 const ShopPage = () => {
     const shopCollections = SHOP_DATA

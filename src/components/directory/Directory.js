@@ -4,7 +4,7 @@ import MenuItem from "../menu-item/MenuItem"
 
 import "./directoryStyles.scss"
 
-const DirectoryComponent = () => {
+const Directory = () => {
     const categories = [
         {
             title: "Womens",
@@ -48,4 +48,4 @@ const DirectoryComponent = () => {
     )
 }
 
-export default DirectoryComponent
+export default Directory

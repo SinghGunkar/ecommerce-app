@@ -3,10 +3,10 @@ import { Switch, Route } from "react-router-dom"
 
 import "./App.css"
 
-import Header from "./components/header/HeaderComponent"
-import HomePage from "./pages/homepage/HomepageComponent"
-import ShopPage from "./pages/shop/ShoppageComponent"
-import SignInSignUp from "./pages/signin-signup/SignInSignUpComponent"
+import Header from "./components/header/Header"
+import HomePage from "./pages/homepage/HomePage"
+import ShopPage from "./pages/shop/ShopPage"
+import SignInSignUpPage from "./pages/signin-signup/SignInSignUpPage"
 
 function App() {
     return (
@@ -17,7 +17,7 @@ function App() {
                 <Route path="/shop" component={ShopPage} />
                 <Route
                     path="/signinsignup"
-                    component={SignInSignUp}
+                    component={SignInSignUpPage}
                 />
             </Switch>
         </div>
