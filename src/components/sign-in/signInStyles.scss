@@ -4,6 +4,7 @@
     padding-top: 25px;
     background-color: aliceblue;
     height: 500px;
+    width: 40%;
 
     .sign-in-title {
         font-size: 25px;
@@ -13,10 +14,16 @@
 
     .sign-in-sub-title {
         font-size: 16px;
-        margin-bottom: 50px;
     }
 
     .sign-in-form {
         margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+
+        input {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
     }
 }
