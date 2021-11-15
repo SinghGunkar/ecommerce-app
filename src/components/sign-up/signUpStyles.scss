@@ -1,22 +1,21 @@
-.sign-in-container {
+.sign-up-container {
     display: flex;
     flex-direction: column;
     padding-top: 25px;
     // background-color: aliceblue;
-    height: 500px;
     width: 40%;
 
-    .sign-in-title {
+    .sign-up-title {
         font-size: 25px;
         font-weight: bolder;
         margin-bottom: 15px;
     }
 
-    .sign-in-sub-title {
+    .sign-up-sub-title {
         font-size: 16px;
     }
 
-    .sign-in-form {
+    .sign-up-form {
         margin-top: 10px;
         display: flex;
         flex-direction: column;
